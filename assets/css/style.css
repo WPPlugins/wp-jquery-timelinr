@@ -1,0 +1,174 @@
+.timeline {
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background: url('../images/dot.gif') left 45px repeat-x;
+}
+.timeline .dates {
+    margin-bottom: 20px !important;
+	overflow: hidden;
+}
+.timeline .dates li {
+	list-style: none !important;
+	float: left;
+	width: 130px;
+	height: 50px;
+	font-size: 24px;
+	text-align: center;
+	background: url('../images/biggerdot.png') center bottom no-repeat;
+}
+.timeline .dates a {
+	line-height: 38px;
+	padding-bottom: 10px;
+	font-size: 16px;
+    text-decoration: none !important;
+}
+.timeline .dates .selected {
+    font-size: 38px;
+}
+		
+.timeline .issues {
+	height: 350px;
+	/*overflow: hidden;*/
+	margin: 0;
+}	
+.timeline .issues li {
+	width: 800px !important;
+	height: 400px;
+	list-style: none !important;
+	float: left;
+	margin: 0;
+}
+.timeline .issues li.selected img {
+	-webkit-transform: scale(1.0,1.0);
+	-moz-transform: scale(1.0,1.0);
+    -o-transform: scale(1.0,1.0);
+    -ms-transform: scale(1.0,1.0);
+    transform: scale(1.0,1.0);
+}
+.timeline .issues li img {
+	float: left;
+	margin: 10px 30px 10px 50px;
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+	zoom: 1;
+	-webkit-transition:  all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 2s ease-in-out;
+	-webkit-transform: scale(0.6,0.6);
+	-moz-transform: scale(0.6,0.6);
+    -o-transform: scale(0.6,0.6);
+    -ms-transform: scale(0.6,0.6);
+    transform: scale(0.6,0.6);
+    width: 220px;
+}
+.timeline .issues li span, .timeline .issues li a {
+	color: #ffcc00;
+	font-size: 48px;
+	margin: 20px 0;
+	text-shadow: #000 1px 1px 2px;
+}
+.timeline .issues li p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 22px;
+	margin:0 70px;
+	text-align: justify;
+	/*text-shadow: #000 1px 1px 2px;*/
+}
+		
+.timeline #grad_left,
+.timeline #grad_right {
+	width: 100px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+}
+.timeline #grad_left {
+    left: 0;
+    background: url('../images/grad_left.png') repeat-y;
+}
+.timeline #grad_right {
+    right: 0;
+    background: url('../images/grad_right.png') repeat-y;
+}
+
+.timeline .next,
+.timeline .prev {
+	position: absolute;
+	top: 0;
+	font-size: 70px;
+	top: 170px;
+	width: 22px;
+	height: 38px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.timeline .next:hover,
+.timeline .prev:hover {
+	background-position: 0 -76px;
+}
+.timeline .next {
+	right: 0;
+	background-image: url('../images/next.png');
+}
+.timeline .prev {
+	left: 0;
+	background-image: url('../images/prev.png');
+}
+.timeline .next.disabled,
+.timeline .prev.disabled {
+	opacity: 0.2;
+}
+
+/* 
+#Tablet (Portrait)
+================================================== 
+*/
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+	.timeline {width: 700px;}
+	.timeline .dates {margin-left: 0px !important;}
+	.timeline .dates li {font-size:20px;}
+	.timeline .issues li {width: 700px;}
+	.timeline .issues li span {font-size:38px;}
+	.timeline .issues li p {margin: 0 220px 0 0; font-size:11px;}
+	.timeline .issues li img {width: 150px !important;}
+}
+
+/* 
+#Mobile (Landscape)
+================================================== 
+*/
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.timeline {width: 600px !important;}
+	.timeline .dates {margin-left: 100px !important;}
+	.timeline .dates li {font-size:20px;}
+	.timeline .issues li {width: 600px;}
+	.timeline .issues li span {font-size:38px;}
+	.timeline .issues li p {margin: 0 250px 0 0; font-size:11px;}
+	.timeline .issues li img {width: 150px !important;}
+}
+
+/* 
+#Mobile (Portrait)
+================================================== 
+*/
+
+@media (max-width: 479px) {
+	.timeline {width: 360px;}
+	.timeline .dates {margin-left: 10px !important;}
+	.timeline .dates .selected {font-size: 28px;}
+	.timeline .dates li {font-size:14px;}
+	.timeline .issues li {width: 360px !important;}
+	.timeline .issues li span {font-size:34px;}
+	.timeline .issues li p {margin:0 40px 0; font-size:10px;}
+	.timeline .issues li img {width: 100px !important;}
+}

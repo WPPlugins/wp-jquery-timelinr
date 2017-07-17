@@ -1,0 +1,45 @@
+/* Shortcode Popup*/
+#timelinr-popup {
+	font-size: 12px;
+}
+form#timelinr-popup div {
+	display:block;
+	width: 100%;
+	float: left;
+	margin-bottom: 8px;
+}
+form#timelinr-popup  div label {
+	float:left;
+	width: 40%;
+	font-weight: bold;
+}
+form#timelinr-popup  div input, form div select {
+	float:right;
+	width: 55%;
+	font-size: 12px;
+}
+form#timelinr-popup div #insert {
+	float:right;
+	text-align: center;
+	padding: 4px 0;
+	height: 15px;
+    background: #7CD54B;
+    background: linear-gradient(top, #7CD54B 0%,#589534 100%);
+    border: 1px solid #5C9C36;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
+    color: #FFC;
+    font: bold 14px/1.1em sans-serif;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #438320;
+}
+form#timelinr-popup div #insert:hover {
+    background: #6BB640;
+    background: linear-gradient(top, #7CD54B 0%,#589534 75%);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset, 0 1px 3px rgba(0,0,0,0.4);
+    color: #FFF;
+}
+form#timelinr-popup div #insert:focus {
+    background: #589534;
+    background: linear-gradient(top, #589534 0%,#7CD54B 100%);
+}

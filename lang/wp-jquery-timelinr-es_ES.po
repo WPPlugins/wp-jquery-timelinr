@@ -1,0 +1,236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP JQuery Timelinr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-10 16:52-0300\n"
+"PO-Revision-Date: 2013-03-10 16:52-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_c;_ngettext\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp_jquery_timelinr.php:176
+msgid "Add New Event"
+msgstr "Agregar Nuevo Evento"
+
+#: ../wp_jquery_timelinr.php:177
+msgid "Edit Event"
+msgstr "Editar Evento"
+
+#: ../wp_jquery_timelinr.php:178
+msgid "New Event"
+msgstr "Nuevo Evento"
+
+#: ../wp_jquery_timelinr.php:179
+msgid "View Event"
+msgstr "Ver Eventos"
+
+#: ../wp_jquery_timelinr.php:180
+msgid "Search Event"
+msgstr "Buscar Eventos"
+
+#: ../wp_jquery_timelinr.php:181
+msgid "No Timelinr items found."
+msgstr "No se encontraron eventos."
+
+#: ../wp_jquery_timelinr.php:182
+msgid "No Timelinr items found in Trash."
+msgstr "No se encontraron eventos en la papelera."
+
+#: ../wp_jquery_timelinr.php:201
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../wp_jquery_timelinr.php:202 ../wp_jquery_timelinr.php:272
+msgid "Category"
+msgstr "Categoria"
+
+#: ../wp_jquery_timelinr.php:203
+msgid "Search Categories"
+msgstr "Buscar Categorias"
+
+#: ../wp_jquery_timelinr.php:204
+msgid "All Categories"
+msgstr "Todas las Categorias"
+
+#: ../wp_jquery_timelinr.php:205
+msgid "Parent Category"
+msgstr "Cateogia Padre"
+
+#: ../wp_jquery_timelinr.php:206
+msgid "Parent Category:"
+msgstr "Cateogia Padre:"
+
+#: ../wp_jquery_timelinr.php:207
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: ../wp_jquery_timelinr.php:208
+msgid "Update Category"
+msgstr "Actualizar Categoria"
+
+#: ../wp_jquery_timelinr.php:209
+msgid "Add New Category"
+msgstr "Agregar Nueva Categoria"
+
+#: ../wp_jquery_timelinr.php:210
+msgid "New Category Name"
+msgstr "Nuevo Nombre de Categoria"
+
+#: ../wp_jquery_timelinr.php:211
+msgid "Choose from the most used categories"
+msgstr "Elija entre las categorías más utilizadas"
+
+#: ../wp_jquery_timelinr.php:224
+msgid "Date"
+msgstr "Fecha"
+
+#: ../wp_jquery_timelinr.php:271
+msgid "Event"
+msgstr "Evento"
+
+#: ../wp_jquery_timelinr.php:273
+msgid "Timelinr Date"
+msgstr "Fecha Timelinr"
+
+#: ../wp_jquery_timelinr.php:335
+msgid "Settings"
+msgstr "Configuraciones"
+
+#: ../wp_jquery_timelinr.php:347
+msgid "Donate"
+msgstr "Donar"
+
+#: ../includes/options.php:7 ../includes/options.php:128
+msgid "Update Timelinr Settings"
+msgstr "Actualizar Configuraciones de Timelinr"
+
+#: ../includes/options.php:18
+msgid "General Settings Saved"
+msgstr "Configuraciones generales guardadas"
+
+#: ../includes/options.php:23 ../includes/options.php:170
+msgid "Update Design Settings"
+msgstr "Actualizar Diseño de Timelinr"
+
+#: ../includes/options.php:30
+msgid "Design Settings Saved"
+msgstr "Configuraciones de diseño guardadas"
+
+#: ../includes/options.php:36
+msgid "Timelinr Settings"
+msgstr "Configuraciones de Timelinr"
+
+#: ../includes/options.php:43
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"this plugin, so donate $20, $50 or $100 now!"
+msgstr ""
+"¿Quiere ayudar a hacer este plugin aún mejor? Todas las donaciones son "
+"utilizadas para mejorar este plugin,  así que no pierdas tiempo y dona ahora!"
+
+#: ../includes/options.php:52
+msgid "Or you could:"
+msgstr "O usted podría:"
+
+#: ../includes/options.php:54
+msgid "Rate the plugin 5★ on WordPress.org"
+msgstr "Califica el plugin con 5 ★ en WordPress.org"
+
+#: ../includes/options.php:55
+msgid "Help out other users in the forums"
+msgstr "Ayuda a otros usuarios en los foros"
+
+#: ../includes/options.php:56
+#, php-format
+msgid "Blog about it & link to the %1$splugin page%2$s"
+msgstr "Blog sobre timelinr y enlace al %1$splugin página%2$s"
+
+#: ../includes/options.php:60
+msgid "Help Spread the Word!"
+msgstr "Ayuda a correr la voz!"
+
+#: ../includes/options.php:74
+msgid "Choose Style"
+msgstr "Elegir estilo"
+
+#: ../includes/options.php:83
+msgid "Arrowkeys?"
+msgstr "Habilitar tecla de flecha?"
+
+#: ../includes/options.php:92
+msgid "Autoplay?"
+msgstr "Autoplay?"
+
+#: ../includes/options.php:101
+msgid "Choose the autoplaydirection"
+msgstr "Elegir la dirección para el autoplay"
+
+#: ../includes/options.php:110
+msgid "Autoplay Pause#"
+msgstr "Tiempo de Pausa para el Autoplay"
+
+#: ../includes/options.php:115
+msgid "Start At#"
+msgstr "Comenzar en#"
+
+#: ../includes/options.php:120
+msgid "Order"
+msgstr "Orden"
+
+#: ../includes/options.php:143
+msgid "Choose Date Format"
+msgstr "Elegir formato de fecha"
+
+#: ../includes/options.php:153
+msgid "Title Permalink?"
+msgstr "Link en el Titulo?"
+
+#: ../includes/options.php:162
+msgid "Post Excerpt?"
+msgstr "Extracto del post?"
+
+#: ../includes/options.php:171
+msgid "Design"
+msgstr "Diseño"
+
+#: ../includes/timelinr_tools.php:111
+msgid "Why not do any or all of the following:"
+msgstr "¿Por qué no hacer una o todas de las siguientes:"
+
+#: ../includes/timelinr_tools.php:113
+msgid "Link to it so other folks can find out about it."
+msgstr "Enlace y así otras personas pueden encontrar información sobre él."
+
+#: ../includes/timelinr_tools.php:114
+msgid "Give it a 5 star rating on WordPress.org."
+msgstr "Dale una calificación de 5 estrellas en WordPress.org."
+
+#: ../includes/timelinr_tools.php:115
+msgid "Let other people know that it works with your WordPress setup."
+msgstr ""
+"Permite que otras personas sepan que funciona con su configuración de "
+"WordPress."
+
+#: ../includes/timelinr_tools.php:117
+msgid "Like this plugin?"
+msgstr "Like al plugin?"
+
+#~ msgctxt "post type general name"
+#~ msgid "Timelinr"
+#~ msgstr "Timelinr"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Timelinr"
+#~ msgstr "Timelinr"
+
+#~ msgctxt "slide"
+#~ msgid "Add New"
+#~ msgstr "Agregar Nuevo"

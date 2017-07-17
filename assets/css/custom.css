@@ -1,0 +1,63 @@
+/* Option page*/
+.options-timelinr h2.subtitle {
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.options-timelinr .form-table tr {
+	background: none repeat scroll 0 0 #F9F9F9;
+	border: 1px solid #E4E4E4;
+	margin: 0;
+	padding-left: 3px;
+}
+
+.options-timelinr .form-table td p {
+	color: #AAA;
+	font-size: 10px;
+}
+
+.options-timelinr .form-table label {
+	font-size: 12px;
+}
+
+.options-timelinr .form-table input {
+    max-width: 100px;
+}
+
+.options-timelinr .example {
+	color: #666;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#icon-options-timelinr{
+    background-image: url(../images/clock-settings.png);
+}
+
+/* PostBox*/
+.postbox {
+	margin: 0 10px 10px 0;
+}
+
+.postbox#timelinr-donation {
+	border-color: #3ac7f3;
+	border-width: 2px;
+}
+
+.postbox .submitbutton {
+	float: right;
+	margin-top: 10px;
+}
+
+strong.blue {
+	color: #3ac7f3;
+	font-weight: bold;
+	font-size: 105%;
+}
+
+/*Custom Filed Date*/
+.ui-datepicker-trigger{
+    margin-left: 6px;
+    vertical-align: top;
+}
