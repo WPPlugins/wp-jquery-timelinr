@@ -263,8 +263,8 @@ if (!class_exists('jqueryTimelinrLoad')) {
 			// Datepicker Jquery UI
 			add_action( 'admin_init', 'broobe_date_picker' );
 			function broobe_date_picker() {			
-			    wp_enqueue_script( 'jquery-datepicker', 'http://code.jquery.com/ui/1.10.1/jquery-ui.js', array('jquery', 'jquery-ui-core' ) );
-				wp_enqueue_style( 'style-datepicker', 'http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css');
+			    wp_enqueue_script( 'jquery-datepicker', '//code.jquery.com/ui/1.10.1/jquery-ui.js', array('jquery', 'jquery-ui-core' ) );
+				wp_enqueue_style( 'style-datepicker', '//code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css');
 				
 				wp_enqueue_script( 'custom.timelinr', JQTL_BASE_URL . '/assets/js/custom.js', array( 'jquery-datepicker' ));
 				wp_localize_script( 'custom.timelinr', 'obj', array( 'image_url' => JQTL_BASE_URL . "/assets/images/") );
